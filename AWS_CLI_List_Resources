@@ -1,0 +1,24 @@
+export AWS_PROFILE=default
+export AWS_PROFILE=user-grafana
+aws resourcegroupstaggingapi get-resources --region      us-east-2     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      us-east-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      us-west-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      us-west-2     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      ap-east-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      ap-south-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      ap-northeast-2     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      ap-southeast-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      ap-southeast-2     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      ap-northeast-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      ca-central-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      cn-north-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      cn-northwest-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      eu-central-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      eu-west-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      eu-west-2     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      eu-west-3     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      eu-north-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      me-south-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      sa-east-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      us-gov-east-1     >>  aws-list.lst 
+aws resourcegroupstaggingapi get-resources --region      us-gov-west-1     >>  aws-list.lst 
