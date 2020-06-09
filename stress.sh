@@ -1,3 +1,5 @@
+#!/bin/bash
+# workload generator tool to submit a configurable measure of CPU, memory, I/O and disk stress on the node.
 sudo yum -y install epel-release
 sudo yum -y install stress 
 uptime
